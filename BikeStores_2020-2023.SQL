@@ -1,8 +1,14 @@
 -- Three bike stores should be added for 2020
 INSERT INTO sales.stores(store_name, phone, email, street, city, Country, zip_code)
-VALUES('PPBikes Shop Amsterdam',        '020 5960001','Amsterdam@ppbikes.shop', 'Nieuwe Gracht 32',     'Amsterdam','Nederland','1234AA'),
-      ('PPBikes Production Facility',   '010 3308888','Production@ppbikes.shop','Haven 220-137',        'Rotterdam','Nederland','3031AP'),
-      ('PPBikes Web orders',            '010 3305555','Web@ppbikes.shop',       'Haven 220-135',        'Rotterdam','Nederland','3031AP');
+VALUES('PPBikes Shop Amsterdam',        '+31 20 5960001',      'Amsterdam@ppbikes.shop', 'Nieuwe Gracht 32',  'Amsterdam','Nederland','1234AA'),
+      ('PPBikes Production Facility',   '+31 10 3308888',      'Production@ppbikes.shop','Haven 220-137',     'Rotterdam','Nederland','3031AP'),
+      ('PPBikes Shop Amsterdam',        '+31 10 3305555',      'Web@ppbikes.shop',       'Haven 220-135',     'Rotterdam','Nederland','3031AP');
+      ('PPBikes Shop Brussels',         '+32 2 721 30 07',     'Brussels@ppbikes.shop',  'Titiaanstraat 2',   'Brussels',     'Belgium','1000');
+      ('PPBikes Shop Venice',           '+39 041 927543',      'Venice@ppbikes.shop',    'Via Pave 184',      'Venizia VE','Italia','30171');
+      ('PPBikes Shop Paris',            '+33 9 52 66 31 65',   'Paris@ppbikes.shop',     '17 Bd du Temple',   'Paris',  'Nederland','75003');
+
+
+
 
 -- Product data
 -- 2019 Products
