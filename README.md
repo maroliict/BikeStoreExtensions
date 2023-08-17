@@ -17,3 +17,13 @@ What I want to setup is a script that uses the api's to get fired to add custome
 Another thing is to track if there are bikes on stock or not.
 
 An PBIX file would be nice so that we can see the sales per shop and the stock per shop
+
+# How to install
+1) [Create Database Objects](<BikeStores Sample Database - create objects.sql>)
+2) [Update Schema for Global Use](<BikeStores - GlobalSchema.sql>)
+3) [Create Stored Procedures](<BikeStores - StoredProcedures.sql>)
+4) [Create View](<Bikestores - View.sql>)
+5) [Create Stored Proc SalesData](<BikeStores - csp_SalesData.sql>)
+6) [Original Data](<BikeStores Sample Database - load data.sql>)
+7) [Add data for 2020-2023](BikeStores_2020-2023.SQL)
+8) [2024]
