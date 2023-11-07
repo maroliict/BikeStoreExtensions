@@ -1,9 +1,9 @@
 -- Modify Columns...
 ALTER Table sales.stores Alter COLUMN zip_code VARCHAR(10);
-ALTER TABLE sales.stores ADD COLUMN [country] VARCHAR (50);
+ALTER TABLE sales.stores ADD [country] VARCHAR (50);
 
 ALTER Table sales.customers Alter COLUMN zip_code VARCHAR(10);
-ALTER TABLE sales.customers ADD COLUMN [country] VARCHAR(50);
+ALTER TABLE sales.customers ADD  [country] VARCHAR(50);
 
 
 -- Contstraints should make names unique

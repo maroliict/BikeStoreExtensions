@@ -1,5 +1,4 @@
-USE [BikeStores_2022]
-GO
+
 
 /****** Object:  StoredProcedure [dbo].[csp_SalesData]    Script Date: 8/16/2023 10:52:41 PM ******/
 SET ANSI_NULLS ON
